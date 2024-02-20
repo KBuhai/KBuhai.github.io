@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Perspectives</title>
+    <style>
+        body {
+            font-family: Andale Mono, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            display: flex;
+            align-items: flex-start;
+            justify-content: space-between;
+            padding: 20px;
+        }
+        .circle {
+            width: 200px;
+            height: 200px;
+            background-color: #E9967A;
+            border-radius: 50%;
+            color: #fff;
+            text-align: center;
+            padding-top: 70px;
+            position: relative;
+        }
+        .circle img {
+            width: 160px;
+            height: 160px;
+            border-radius: 50%;
+            position: absolute;
+            top: 20px;
+            left: 20px;
+        }
+        .rectangle-perspectives {
+            width: 300px;
+            background-color: #E9967A;
+            color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+        .rectangle-biography {
+            width: 300px;
+            background-color: #1F7D8E;
+            color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+        .title {
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="circle">
+            <img src="IMAGE 2024-02-18 16_23_13.jpg" alt="Profile Image">
+            <ul>
+            </ul>
+        </div>
+        <div>
+            <div class="rectangle-perspectives">
+                <h2>My Perspectives</h2>
+                <ul>
+                    <li>To inspire you to work hard to make your dreams into reality.</li>
+                    <li>To show you that it's ok to make mistakes </li>
+                    <li>To demonstrate significant working skills </li>
+                    <li> To give you career advice </li>
+                    <li> To show you emerging opportunities </li>
+                </ul>
+            </div>
+            <div class="rectangle-biography">
+                <h2>Short Biography</h2>
+                <p> I’m Kamila, a person from the vibrant city of Kharkiv, Ukraine, trying to bring a wealth of experience and expertise to the digital realm. Since starting my journey at the age of 17, I dove headfirst into the world of digital agencies, where I try to develop my skills and help you with all the challenges you might face. I hope my experience will bring you joy and some new skills.  </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
